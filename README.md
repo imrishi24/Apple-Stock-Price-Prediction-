@@ -32,3 +32,6 @@ After the training the fitted curve with original stock price:
 Since difference among OHLC average, HLC average and closing value is not significat, so only Closing price is used to build the model and prediction. The training and testing RMSE are: 1.08 and 1.67 respectively which is pretty good to predict future values of stock.
 
 Finally, this work can greatly help the quantitative traders to take decisions.
+
+# For Reference:
+https://cppsecrets.com/users/810311410511510497981041141031171141069711464103109971051084699111109/Stock-Price-Prediction-of-Apple-Inc-Using-Recurrent-Neural-Network.php
