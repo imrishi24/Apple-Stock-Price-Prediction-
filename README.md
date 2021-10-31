@@ -15,21 +15,20 @@ Python 3.8 and latest versions of all libraries including deep learning library 
 70% data is used for training. Adam optimizer is used for faster convergence.
 After training starts it will look like:
 
-
+![ttt1](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/1.png)
 
 # Test:
 Test accuracy metric is root mean square error (RMSE).
 # Results:
-The comparison of OHLC, HLC and Closing price:
+The Movement of Closing price:
 
-![ttt1](https://user-images.githubusercontent.com/24511419/29501710-76018bbe-864c-11e7-9239-afd8bbf19bb8.png)
+![ttt1](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/2.png)
 
 After the training the fitted curve with original stock price:
 
-![tt2](https://user-images.githubusercontent.com/24511419/29501783-eb7eccd0-864c-11e7-9c26-0db07dea73c0.png)
+![tt2](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/3.png)
 
 # Observation and Conclusion:
-Since difference among OHLC average, HLC average and closing value is not significat, so only OHLC average is used to build the model and prediction. The training and testing RMSE are: 1.24 and 1.37 respectively which is pretty good to predict future values of stock.
-Stock price of last day of dataset was 158.8745 and using this model and price of next two days are predicted as 160.3230 and 160.9240 - which were 159.2075 and 159.8325 on 14th and 15th August 2017 according to Yahoo Finance. However, future values for any time period can be predicted using this model.
+Since difference among OHLC average, HLC average and closing value is not significat, so only Closing price is used to build the model and prediction. The training and testing RMSE are: 1.08 and 1.67 respectively which is pretty good to predict future values of stock.
 
 Finally, this work can greatly help the quantitative traders to take decisions.
