@@ -24,7 +24,7 @@ The Movement of Closing price:
 
 ![ttt1](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/2.png)
 
-After the training the fitted curve with original stock price:
+After the training the fitted curve with original stock price, predicetd stock price and validated stock price:
 
 ![tt2](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/3.png)
 
