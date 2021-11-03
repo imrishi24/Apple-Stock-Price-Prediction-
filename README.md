@@ -15,18 +15,18 @@ Python 3.8 and latest versions of all libraries including deep learning library 
 70% data is used for training. Adam optimizer is used for faster convergence.
 After training starts it will look like:
 
-![ttt1](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/1.png)
+![ttt1](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/Images/1.png)
 
 # Test:
 Test accuracy metric is root mean square error (RMSE).
 # Results:
 The Movement of Closing price:
 
-![ttt1](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/2.png)
+![ttt1](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/Images/2.png)
 
 After the training the fitted curve with original stock price, predicetd stock price and validated stock price:
 
-![tt2](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/3.png)
+![tt2](https://github.com/imrishi24/Apple-Stock-Price-Prediction-/blob/main/Images/3.png)
 
 # Observation and Conclusion:
 Since difference among OHLC average, HLC average and closing value is not significat, so only Closing price is used to build the model and prediction. The training and testing RMSE are: 1.08 and 1.67 respectively which is pretty good to predict future values of stock.
